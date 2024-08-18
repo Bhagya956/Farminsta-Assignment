@@ -1,0 +1,52 @@
+.search-container {
+    padding: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  
+  .filter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between input fields */
+  }
+  
+  .form-input {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 1rem;
+    width: 100%;
+  }
+  
+  .search-button, .dashboard-button {
+    background-color: lightseagreen;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .search-button:hover {
+    background-color:lightseagreen;
+  }
+  
+  .dashboard-button {
+    background-color: #28a745; /* Different color for the dashboard button */
+  }
+  
+  .dashboard-button:hover {
+    background-color: #218838;
+  }
+  
+  .results-container {
+    margin-top: 20px;
+  }
+  
